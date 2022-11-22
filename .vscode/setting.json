@@ -1,0 +1,31 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "cmake.configureOnOpen": true,
+    "window.zoomLevel": 2,
+    "editor.minimap.enabled": true,
+    "C_Cpp.autocomplete": "Default",
+    "[cpp]": {
+        "editor.quickSuggestions": true
+    },
+    "[c]": {
+        "editor.quickSuggestions": true
+    },
+    "files.associations": {
+        "*.html": "html",
+        "sortbase.h": "c",
+        "malloc.h": "c",
+        "queue": "c",
+        "string_view": "cpp",
+        "regex": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp",
+        "array": "cpp",
+        "string": "cpp"
+    },
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true
+}
