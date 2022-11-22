@@ -27,5 +27,19 @@
         "string": "cpp"
     },
     "editor.formatOnType": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "fileheadergit.customMade": {
+        "Description":"",
+        "Author":"scdctlt",
+        "Date":"DO not edit",
+        "LastEditors":"DO not edit",
+        "LastEditTime":"DO not edit"
+    },
+    "fileheadergit.cursorMode": {
+        "Author":"scdctlt",
+        "Description":"",
+        "param":"",
+        "return":""
+    }
 }
+
