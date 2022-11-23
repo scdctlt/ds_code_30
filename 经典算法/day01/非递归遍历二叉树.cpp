@@ -1,4 +1,3 @@
-// 树的遍历递归和非递归，和层序遍历
 #include <bits/stdc++.h>
 using namespace std;
 typedef struct BiNode       //二叉树结点
@@ -6,47 +5,13 @@ typedef struct BiNode       //二叉树结点
     char data;
     struct BiNode *lchild,*rchild;
 }BiNode,*BiTree;
-
+/** 非递归部分
+ * 这里主要是考虑遍历的过程，栈和队列使用的是stl
+*/
 void visit(BiTree &T){      //visit操作
     cout<<T->data<<" ";
 }
 
-
-void PreOrder(BiTree &T){       //递归前序遍历二叉树
-    if (T!=NULL)
-    {
-        visit(T);
-        PreOrder(T->lchild);
-        PreOrder(T->rchild);
-    }
-
-}
-
-void InOrder(BiTree &T){        //递归中序遍历二叉树
-    if (T!=NULL)
-    {
-        
-        InOrder(T->lchild);
-        visit(T);
-        InOrder(T->rchild);
-    }
-
-}
-
-void PostOrder(BiTree &T){      //递归后序遍历二叉树
-    if (T!=NULL)
-    {
-        
-        PostOrder(T->lchild);
-        PostOrder(T->rchild);
-        visit(T);
-    }
-
-}
-
-/** 非递归部分
- * 这里主要是考虑遍历的过程，栈和队列使用的是stl
-*/
 
 void PreOrder2(BiTree &T){
     stack<BiNode * > s;
@@ -115,26 +80,6 @@ void PostOrder2(BiTree &T){
                 r=p;
                 p=NULL;
             }
-        }
-    }
-}
-
-void levelOrder(BiTree &T){
-    queue<BiNode *> q;
-    BiNode *p=T;      //遍历指针  
-    q.push(p);
-    while (p || !q.empty())
-    {
-        p=q.front();
-        visit(p);
-        q.pop();
-        if (p->lchild)
-        {
-            q.push(p->lchild);
-        }
-        if (p->rchild)
-        {
-            q.push(p->rchild);
         }
     }
 }
