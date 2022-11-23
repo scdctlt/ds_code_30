@@ -49,7 +49,7 @@ void PostOrder(BiTree &T){      //递归后序遍历二叉树
 */
 
 void PreOrder2(BiTree &T){
-    stack<BiTree > s;
+    stack<BiNode * > s;
     BiNode *p = T;           //p是遍历指针
     while (p||!s.empty())
     {
@@ -70,7 +70,7 @@ void PreOrder2(BiTree &T){
 
 
 void InOrder2(BiTree &T){           //非递归中序遍历二叉树
-    stack<BiTree > s;
+    stack<BiNode *> s;
     BiNode *p = T;           //p是遍历指针
     while (p||!s.empty())
     {
@@ -90,7 +90,7 @@ void InOrder2(BiTree &T){           //非递归中序遍历二叉树
 }
 
 void PostOrder2(BiTree &T){
-    stack<BiTree > s;
+    stack<BiNode *> s;
     BiNode *p = T;           //p是遍历指针
     BiNode *r=NULL;
     while (p||!s.empty())

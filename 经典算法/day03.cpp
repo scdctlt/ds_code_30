@@ -1,1 +1,1 @@
-//prime 和kruskal
+//prim 和kruskal
