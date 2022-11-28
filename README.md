@@ -55,5 +55,6 @@ PPOJ精选60道，每天题目不固定，用抽取题目的脚本来抽取
 | 06  | 1036_括号匹配2              | http://pipioj.online/problem.php?id=1036 | 2022.11.27 |        |
 | 07  | 1286_pipi运货               | http://pipioj.online/problem.php?id=1286 | 2022.11.28 |        |
 | 07  | 1372_找树左下角的值         | http://pipioj.online/problem.php?id=1372 | 2022.11.28 |        |
-|     |                             |                                          |            |        |
-|     |                             |                                          |            |        |
+| 08  | 1406_八大排序_归并排序      | http://pipioj.online/problem.php?id=1406 | 2022.11.29 |        |
+| 08  | 1364_计算表达式             | http://pipioj.online/problem.php?id=1364 | 2022.11.29 |        |
+| 08  | 1405_八大排序_快速排序      | http://pipioj.online/problem.php?id=1405 | 2022.11.29 |        |
