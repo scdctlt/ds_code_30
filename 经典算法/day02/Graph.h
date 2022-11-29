@@ -25,8 +25,8 @@ typedef struct ArcNode          //边表结点
 
 typedef struct VNode            //顶点表结点
 {
-        VertexType data;        //顶点信息
-        ArcNode *firstarc;         //指向第一条依附该节点的弧的指针
+    VertexType data;        //顶点信息
+    ArcNode *firstarc;         //指向第一条依附该节点的弧的指针
 }VNode,AdjList[MaxVertexNum];
 
 typedef struct ALGaph

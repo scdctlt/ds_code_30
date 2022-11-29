@@ -45,3 +45,8 @@ void bfs(){
         }  
     }
 }
+
+int main(){
+    bfs();
+    return 0;
+}

@@ -14,7 +14,7 @@ bool merge(LinkList &L1,LinkList &L2,LinkList &L3){
     if (L1->next=NULL)
     {
         L3=L1;
-        return true
+        return true;
     }
     if (L2->next=NULL)
     {

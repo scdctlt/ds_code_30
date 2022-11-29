@@ -58,3 +58,5 @@ PPOJ精选60道，每天题目不固定，用抽取题目的脚本来抽取
 | 08  | 1406_八大排序_归并排序      | http://pipioj.online/problem.php?id=1406 | 2022.11.29 |        |
 | 08  | 1364_计算表达式             | http://pipioj.online/problem.php?id=1364 | 2022.11.29 |        |
 | 08  | 1405_八大排序_快速排序      | http://pipioj.online/problem.php?id=1405 | 2022.11.29 |        |
+| 09  | 1400_八大排序_直接插入排序  | http://pipioj.online/problem.php?id=1400 | 2022.11.30 |        |
+| 09  | 1332_反转括号之间的字串     | http://pipioj.online/problem.php?id=1332 | 2022.11.30 |        |

@@ -5,7 +5,7 @@ typedef struct Node
 {
     int coef;       //系数
     int expn;       //指数
-    struct Node *next    
+    struct Node *next;    
 }LNode,*poly;
 
 void init(poly &La,poly &Lb){
